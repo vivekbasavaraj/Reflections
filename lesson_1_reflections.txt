@@ -1,0 +1,102 @@
+HOW DID VIEWING A DIFF BETWEEN TWO VERSIONS OF A FILE HELP YOU SEE THE BUG THAT
+WAS INTRODUCED?
+
+    In my case , I used FC which stands for File Compare to find the difference between
+ the files . diff is used in MAC or linux to find the difference. by using these commands
+ I was able to figure out the bug that was introduced , as these commands showed the diferences 
+ in the file that is they pinpointed the diffrences line by line.
+
+HOW COULD HAVING EASY ACCESS TO THE ENTIRE HISTORY OF A FILE MAKE YOU A MORE
+EFFICIENT PROGRAMMER IN THE LONG TERM?
+
+    By having the entire history of a file helps you find out the mistakes you commit and helps 
+ to learn the difference and the changes made to the file . Being able to find out the mistakes 
+ and the changes done , it helps me to become a more efficient programmer.
+
+DIfferent version controls also includes -- 
+	1) Manual Copies
+	2) Dropbox
+	3) Google Docs
+	4) Wikipedia
+
+Also you have 
+    # CVS - Control Version Systems
+    # SVN - Subversion 
+    # Mercurial hg
+
+
+WHAT DO YOU THINK ARE THE PROS AND CONS OF MANUALLY CHOOSING WHEN TO CREATE A
+COMMIT, LIKE YOU DO IN GIT, VS HAVING VERSIONS AUTOMATICALLY SAVED, LIKE GOOGLE
+DOCS DOES?
+
+    The commands introduced in git untill now is commit and git diff . first to commit the changes 
+ and the latter to find the differences between two commits. 
+
+ ....
+ 
+
+
+WHY DO YOU THINK SOME VERSION CONTROL SYSTEMS, LIKE GIT, ALLOW SAVING MULTIPLE
+FILES IN ONE COMMIT, WHILE OTHERS, LIKE GOOGLE DOCS, TREAT EACH FILE SEPARATELY?
+
+    ............
+
+
+
+HOW CAN YOU USE THE COMMANDS GIT LOG AND GIT DIFF TO VIEW THE HISTORY OF FILES?
+
+    git log can be used to see the commits made to the repository and git diff can be used to find 
+the differences between any two commits 
+		gif diff 1st_commit_id 2nd_commit_id
+
+
+HOW MIGHT USING VERSION CONTROL MAKE YOU MORE CONFIDENT TO MAKE CHANGES THAT
+COULD BREAK SOMETHING?
+
+    by using the version control , you can control the changes you make , you can use git checkout to 
+reverse the commit and check which commit caused the error or mistake , so that it can make me more confident
+
+NOW THAT YOU HAVE YOUR WORKSPACE SET UP, WHAT DO YOU WANT TO TRY USING GIT FOR?
+
+    Fill in your answer here
+
+
+
+--------------------------------
+Git Errors and Warnings Solution
+Should not be doing an octopus
+Octopus is a strategy Git uses to combine many different versions of code together. This message can appear if you try to use this strategy in an inappropriate situation.
+
+You are in 'detached HEAD' state
+HEAD is what Git calls the commit you are currently on. You can “detach” the HEAD by switching to a previous commit, which we’ll see in the next video. Despite what it sounds like, it’s actually not a bad thing to detach the HEAD. Git just warns you so that you’ll realize you’re doing it.
+
+Panic! (the 'impossible' happened)
+This is a real error message, but it’s not output by Git. Instead it’s output by GHC, the compiler for a programming language called Haskell. It’s reserved for particularly surprising errors!
+
+Takeaway We hope these errors and warnings amused you as much as they amused us! Now that you know what kind of errors Git can throw, you’re ready to start checking out previous versions of files with Caroline.
+-------------------------------
+
+Behavior of git clone
+If someone else gives you the location of their directory or repository, you can copy or clone it to your own computer.
+
+This is true for both copying a directory and cloning a repository.
+
+As you saw in the previous lesson, if you have a URL to a repository, you can copy it to your computer using git clone.
+
+For copying a directory, you weren't expected to know this, but it is possible to copy a directory from one computer to another using the command scp, which stands for "secure copy". The name was chosen because the scp command lets you securely copy a directory from one computer to another. 
+
+
+The history of changes to the directory or repository is copied.
+
+This is true for cloning a repository, but not for copying a directory. The main reason to use git clone rather than copying the directory is because git clone will also copy the commit history of the repository. However, copying can be done on any directory, whereas git clone only works on a Git repository. 
+
+
+If you make changes to the copied directory or cloned repository, the original will not change.
+
+This is true for both copying a directory and cloning a repository. In both cases, you're making a copy that you can alter without changing the original. 
+
+
+The state of every file in the directory or repository is copied.
+
+This is true for both copying a directory and cloning a repository. In both cases, all the files are copied.
+------------------------------------------
