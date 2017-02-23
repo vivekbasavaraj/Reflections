@@ -7,19 +7,48 @@ many hidden files that would be hidden from the users while using the repository
 HOW IS THE STAGING AREA DIFFERENT FROM THE WORKING DIRECTORY AND THE REPOSITORY?
 WHAT VALUE DO YOU THINK IT OFFERS?
 
-	
-
+	working area is the place where you will have files that are yet to be committed to the repository,
+staging area is the place where first you add the similar files you think  	you need to add to the 
+respository together at once witha single commit. add and status both can be done to the staging area ,
+to the working repository only the status thing is applicable.
 
 HOW CAN YOU USE THE STAGING AREA TO MAKE SURE YOU HAVE ONE COMMIT PER LOGICAL
 CHANGE?
 
+	Using the staging area , you can add all the changes and commit once you feel all belongs to the same 
+logical change. 
+
 WHAT ARE SOME SITUATIONS WHEN BRANCHES WOULD BE HELPFUL IN KEEPING YOUR HISTORY
 ORGANIZED? HOW WOULD BRANCHES HELP?
 
+	When you need to do different changes and do not want to affect the older versions like when you want to 
+do any experiments on it , you do use branches . You can keep on having different experiments performed on 
+the existing commit and create many branches and try out them .  
+
 HOW DO THE DIAGRAMS HELP YOU VISUALIZE THE BRANCH STRUCTURE?
+
+	Drawing the diagram helps you understand the commit structure , branch structure and the order in which 
+you have committed and which are the commits that are reachable and ehich commits belongs which branches and everything.
 
 WHAT IS THE RESULT OF MERGING TWO BRANCHES TOGETHER? WHY DO WE REPRESENT IT IN
 THE DIAGRAM THE WAY WE DO?
 
+
+
 WHAT ARE THE PROS AND CONS OF GIT’S AUTOMATIC MERGING VS. ALWAYS DOING MERGES
 MANUALLY?
+
+
+
+--------------------------------------------------------------------
+Linear Commit history  -  making straight line of changes helps in fixing bugs, adding new features or updating documentation. 
+
+Branches are labels
+
+Master  - master is the name given to the main branch in most of the git repositories and everytime you create a repository , git
+          creates a master branch for you . 
+
+Tip of the branch  - Current last commit of that branch
+
+Merging - process of combining two branches.
+
